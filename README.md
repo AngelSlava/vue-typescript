@@ -1,4 +1,4 @@
-# crud-table-qfs
+# Vue 2, TS, Bootstrap
 
 ## Project setup
 ```
