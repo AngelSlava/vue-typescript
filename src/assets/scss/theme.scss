@@ -1,0 +1,24 @@
+// Define variable defaults
+
+
+$color-primary: #2192FF;
+$color-success: #38E54D;
+$color-warning: #FDFF00;
+
+$theme-colors: (
+        "primary": $color-primary,
+        "success": $color-success,
+        "warning": $color-warning
+);
+
+.invisible-scroll-bar {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+// Then import Bootstrap and BootstrapVue SCSS files (order is important)
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
